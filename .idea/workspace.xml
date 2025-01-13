@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b9aea11-84f6-4bf4-a2f4-a4b06208385c" name="Changes" comment="prime number">
+    <list default="true" id="4b9aea11-84f6-4bf4-a2f4-a4b06208385c" name="Changes" comment="myArrayList">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/UseMyArrayList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q1089_DuplicateZeros.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q11_MaxWater.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q121_MinMaxProfit.java" afterDir="false" />
@@ -25,9 +18,10 @@
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q724_.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q75_SortColor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q88_MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/cylicSort/Q268_MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/cylicSort/Q448_NumbersDisappeared.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/sorting/Astha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/MergeSortPivot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +75,12 @@
     &quot;Application.Q15_3Sum.executor&quot;: &quot;Run&quot;,
     &quot;Application.Q169_MajorityElement.executor&quot;: &quot;Run&quot;,
     &quot;Application.Q1_HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q268_MissingNumber.executor&quot;: &quot;Run&quot;,
     &quot;Application.Q26_RemoveDuplicates.executor&quot;: &quot;Run&quot;,
     &quot;Application.Q2_Factorial.executor&quot;: &quot;Run&quot;,
     &quot;Application.Q2_Sum.executor&quot;: &quot;Run&quot;,
     &quot;Application.Q42_TrappingRainwater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q448_NumbersDisappeared.executor&quot;: &quot;Run&quot;,
     &quot;Application.Q4_Fabonacci.executor&quot;: &quot;Run&quot;,
     &quot;Application.Q4_Fibonacci.executor&quot;: &quot;Run&quot;,
     &quot;Application.Q53_MaxSubarray.executor&quot;: &quot;Run&quot;,
@@ -107,14 +103,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.cylicSort" />
       <recent name="sorting" />
       <recent name="leetcode" />
       <recent name="practice_2Jan.recursion" />
       <recent name="optimized" />
-      <recent name="recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q88_MergeSortedArray">
+  <component name="RunManager" selected="Application.Q448_NumbersDisappeared">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_2Jan.optimized.Array" />
       <module name="Dsa" />
@@ -141,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.MergeSort" />
+    <configuration name="Q268_MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.cylicSort.Q268_MissingNumber" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="leetcode.cylicSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortPivot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.MergeSortPivot" />
+    <configuration name="Q448_NumbersDisappeared" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.cylicSort.Q448_NumbersDisappeared" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="leetcode.cylicSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q448_NumbersDisappeared" />
+        <item itemvalue="Application.Q268_MissingNumber" />
         <item itemvalue="Application.Q88_MergeSortedArray" />
         <item itemvalue="Application.Astha" />
         <item itemvalue="Application.Array" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MergeSortPivot" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +299,47 @@
       <option name="project" value="LOCAL" />
       <updated>1736179596770</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="FILES">
+      <option name="closed" value="true" />
+      <created>1736273306422</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736273306422</updated>
+    </task>
+    <task id="LOCAL-00015" summary="my arraylist">
+      <option name="closed" value="true" />
+      <created>1736445177591</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736445177591</updated>
+    </task>
+    <task id="LOCAL-00016" summary="merge sort">
+      <option name="closed" value="true" />
+      <created>1736533481454</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736533481454</updated>
+    </task>
+    <task id="LOCAL-00017" summary="quick sort">
+      <option name="closed" value="true" />
+      <created>1736591191908</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1736591191908</updated>
+    </task>
+    <task id="LOCAL-00018" summary="myArrayList">
+      <option name="closed" value="true" />
+      <created>1736698915525</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1736698915525</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -318,7 +354,12 @@
     <MESSAGE value="optimized sqrt" />
     <MESSAGE value="left rotation" />
     <MESSAGE value="prime number" />
-    <option name="LAST_COMMIT_MESSAGE" value="prime number" />
+    <MESSAGE value="FILES" />
+    <MESSAGE value="my arraylist" />
+    <MESSAGE value="merge sort" />
+    <MESSAGE value="quick sort" />
+    <MESSAGE value="myArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="myArrayList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
