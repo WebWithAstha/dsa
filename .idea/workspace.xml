@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b9aea11-84f6-4bf4-a2f4-a4b06208385c" name="Changes" comment="myArrayList">
+    <list default="true" id="4b9aea11-84f6-4bf4-a2f4-a4b06208385c" name="Changes" comment="numbers disappeared">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binary/PeakIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binary/Q1011_MinCapacityToShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/Q128_LongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/Q349_IntersectionOf2Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/Q409_LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/Q560_SubArraySumEqualsTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashing/Q875_KokoEatingBananas.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q1089_DuplicateZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q11_MaxWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q121_MinMaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q15_3Sum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q169_MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q26_RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q42_TrappingRainwater.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q53_MaxSubarray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q724_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q75_SortColor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/Q88_MergeSortedArray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/cylicSort/Q268_MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/cylicSort/Q448_NumbersDisappeared.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/sorting/Astha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -61,62 +61,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Astha.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeftRotation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSortPivot.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinMaxProfit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q11_MaxWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q15_3Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q169_MajorityElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1_HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q268_MissingNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q26_RemoveDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q2_Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q2_Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q42_TrappingRainwater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q448_NumbersDisappeared.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q4_Fabonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q4_Fibonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q53_MaxSubarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q5_Gcd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q5_Lcm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q724_.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q75_SortColor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q75_SortColors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q7_Factor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q88_MergeSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q9_Power.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sqrt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumFactFab.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UseMyArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Array.executor": "Run",
+    "Application.Astha.executor": "Run",
+    "Application.Hello.executor": "Run",
+    "Application.LeftRotation.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.MergeSortPivot.executor": "Run",
+    "Application.MinMaxProfit.executor": "Run",
+    "Application.PeakIndex.executor": "Run",
+    "Application.PrimeNumbers.executor": "Run",
+    "Application.Q1011_MinCapacityToShip.executor": "Run",
+    "Application.Q1011_ShpiWithinAlloc.executor": "Run",
+    "Application.Q11_MaxWater.executor": "Run",
+    "Application.Q128_LongestConsecutive.executor": "Run",
+    "Application.Q15_3Sum.executor": "Run",
+    "Application.Q169_MajorityElement.executor": "Run",
+    "Application.Q1_HelloWorld.executor": "Run",
+    "Application.Q268_MissingNumber.executor": "Run",
+    "Application.Q26_RemoveDuplicates.executor": "Run",
+    "Application.Q2_Factorial.executor": "Run",
+    "Application.Q2_Sum.executor": "Run",
+    "Application.Q349_IntersectionOf2Array.executor": "Run",
+    "Application.Q409_LongestPalindrome.executor": "Run",
+    "Application.Q42_TrappingRainwater.executor": "Run",
+    "Application.Q448_NumbersDisappeared.executor": "Run",
+    "Application.Q4_Fabonacci.executor": "Run",
+    "Application.Q4_Fibonacci.executor": "Run",
+    "Application.Q53_MaxSubarray.executor": "Run",
+    "Application.Q560_SubArraySumEqualsTarget.executor": "Run",
+    "Application.Q5_Gcd.executor": "Run",
+    "Application.Q5_Lcm.executor": "Run",
+    "Application.Q724_.executor": "Run",
+    "Application.Q75_SortColor.executor": "Run",
+    "Application.Q75_SortColors.executor": "Run",
+    "Application.Q7_Factor.executor": "Run",
+    "Application.Q875_KokoEatingBananas.executor": "Run",
+    "Application.Q88_MergeSortedArray.executor": "Run",
+    "Application.Q9_Power.executor": "Run",
+    "Application.SearchRotatedSorted.executor": "Run",
+    "Application.Sqrt.executor": "Run",
+    "Application.SumFactFab.executor": "Run",
+    "Application.UseMyArrayList.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hashing" />
       <recent name="leetcode.cylicSort" />
       <recent name="sorting" />
       <recent name="leetcode" />
       <recent name="practice_2Jan.recursion" />
-      <recent name="optimized" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q448_NumbersDisappeared">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_2Jan.optimized.Array" />
+  <component name="RunManager" selected="Application.Q128_LongestConsecutive">
+    <configuration name="Q1011_MinCapacityToShip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary.Q1011_MinCapacityToShip" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_2Jan.optimized.*" />
+          <option name="PATTERN" value="binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Astha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.Astha" />
+    <configuration name="Q128_LongestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.Q128_LongestConsecutive" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q268_MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.cylicSort.Q268_MissingNumber" />
+    <configuration name="Q409_LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.Q409_LongestPalindrome" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.cylicSort.*" />
+          <option name="PATTERN" value="hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q448_NumbersDisappeared" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.cylicSort.Q448_NumbersDisappeared" />
+    <configuration name="Q560_SubArraySumEqualsTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.Q560_SubArraySumEqualsTarget" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.cylicSort.*" />
+          <option name="PATTERN" value="hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q88_MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Q88_MergeSortedArray" />
+    <configuration name="Q875_KokoEatingBananas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.Q875_KokoEatingBananas" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q448_NumbersDisappeared" />
-        <item itemvalue="Application.Q268_MissingNumber" />
-        <item itemvalue="Application.Q88_MergeSortedArray" />
-        <item itemvalue="Application.Astha" />
-        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.Q128_LongestConsecutive" />
+        <item itemvalue="Application.Q560_SubArraySumEqualsTarget" />
+        <item itemvalue="Application.Q875_KokoEatingBananas" />
+        <item itemvalue="Application.Q1011_MinCapacityToShip" />
+        <item itemvalue="Application.Q409_LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +349,79 @@
       <option name="project" value="LOCAL" />
       <updated>1736698915525</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="file">
+      <option name="closed" value="true" />
+      <created>1736784808346</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736784808346</updated>
+    </task>
+    <task id="LOCAL-00020" summary="search in rotated sorted">
+      <option name="closed" value="true" />
+      <created>1736878091960</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736878091960</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Q11 max water">
+      <option name="closed" value="true" />
+      <created>1736958041771</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1736958041771</updated>
+    </task>
+    <task id="LOCAL-00022" summary="3sum">
+      <option name="closed" value="true" />
+      <created>1737050129869</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1737050129869</updated>
+    </task>
+    <task id="LOCAL-00023" summary="remove duplicates">
+      <option name="closed" value="true" />
+      <created>1737134874474</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1737134874474</updated>
+    </task>
+    <task id="LOCAL-00024" summary="trapping rainwater">
+      <option name="closed" value="true" />
+      <created>1737223519570</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1737223519570</updated>
+    </task>
+    <task id="LOCAL-00025" summary="min max profit">
+      <option name="closed" value="true" />
+      <created>1737308872207</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737308872207</updated>
+    </task>
+    <task id="LOCAL-00026" summary="sort color">
+      <option name="closed" value="true" />
+      <created>1737394395736</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1737394395736</updated>
+    </task>
+    <task id="LOCAL-00027" summary="numbers disappeared">
+      <option name="closed" value="true" />
+      <created>1737478426016</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1737478426016</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -359,7 +441,16 @@
     <MESSAGE value="merge sort" />
     <MESSAGE value="quick sort" />
     <MESSAGE value="myArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="myArrayList" />
+    <MESSAGE value="file" />
+    <MESSAGE value="search in rotated sorted" />
+    <MESSAGE value="Q11 max water" />
+    <MESSAGE value="3sum" />
+    <MESSAGE value="remove duplicates" />
+    <MESSAGE value="trapping rainwater" />
+    <MESSAGE value="min max profit" />
+    <MESSAGE value="sort color" />
+    <MESSAGE value="numbers disappeared" />
+    <option name="LAST_COMMIT_MESSAGE" value="numbers disappeared" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
