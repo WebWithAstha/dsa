@@ -1,48 +1,26 @@
 package hashing;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
 
-import static java.lang.System.*;
 
 public class Q128_LongestConsecutive {
 
 
     public static int longestConsecutive(int[] nums) {
+        int longest  = 0;
+        HashMap<Integer,Boolean> map = new HashMap<>();
+        for(int num : nums) map.put(num,true);
 
-
-        int longest = 0;
-        Set<Integer> set = new HashSet<>();
-
-        for (int num : nums) set.add(num);
-
-
-        // -1,1,2,0
-        int maxUntil = Integer.MIN_VALUE;
-        for (int num : nums) {
-            int current = 1;
-            int a = num-1;
-            out.println();
-            out.println(num);
-            while (set.contains(a)) {
-                current++;
-                out.println(a);
-                if (current < longest && a <= maxUntil){
-                    if(a == maxUntil ){
-                        current= maxUntil+current;
-                    }
-                    out.println("current h : "+current);
-                    break;
-                }
-                a--;
-            }
-            if (current >= longest){
-                maxUntil = num;
-            }
-            longest = Math.max(longest, current);
-            out.println("maxUntil = " + maxUntil+" longest = "+longest);
+        for(int num : nums){
+            if(map.containsKey(num-1)) map.put(num,false);
         }
-
+        for(int key : map.keySet()){
+            if(map.get(key)){
+                int count = 1;
+                while(map.containsKey(key+count)) count++;
+            longest = Math.max(longest,count);
+            }
+        }
 
         return longest;
     }
@@ -58,7 +36,7 @@ public class Q128_LongestConsecutive {
 
 
 
-        out.println(longestConsecutive(nums));
+        System.out.println(longestConsecutive(nums));
 
     }
 }
