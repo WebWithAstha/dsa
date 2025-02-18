@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b9aea11-84f6-4bf4-a2f4-a4b06208385c" name="Changes" comment="numbers disappeared">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binary/PeakIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binary/Q1011_MinCapacityToShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashing/Q128_LongestConsecutive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashing/Q349_IntersectionOf2Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashing/Q409_LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashing/Q560_SubArraySumEqualsTarget.java" afterDir="false" />
+    <list default="true" id="4b9aea11-84f6-4bf4-a2f4-a4b06208385c" name="Changes" comment="tree">
       <change afterPath="$PROJECT_DIR$/src/hashing/Q875_KokoEatingBananas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q1089_DuplicateZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q169_MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q53_MaxSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q724_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Q88_MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/cylicSort/Q268_MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/Astha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedList/MiddleofLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/powerSession/SearchRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/ReverseKGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binary/SearchRotatedSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/SearchRotatedSorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +39,9 @@
     &quot;accountId&quot;: &quot;7a0fe154-b687-4be9-b440-443107fa82e6&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -61,72 +53,106 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Array.executor": "Run",
-    "Application.Astha.executor": "Run",
-    "Application.Hello.executor": "Run",
-    "Application.LeftRotation.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MergeSortPivot.executor": "Run",
-    "Application.MinMaxProfit.executor": "Run",
-    "Application.PeakIndex.executor": "Run",
-    "Application.PrimeNumbers.executor": "Run",
-    "Application.Q1011_MinCapacityToShip.executor": "Run",
-    "Application.Q1011_ShpiWithinAlloc.executor": "Run",
-    "Application.Q11_MaxWater.executor": "Run",
-    "Application.Q128_LongestConsecutive.executor": "Run",
-    "Application.Q15_3Sum.executor": "Run",
-    "Application.Q169_MajorityElement.executor": "Run",
-    "Application.Q1_HelloWorld.executor": "Run",
-    "Application.Q268_MissingNumber.executor": "Run",
-    "Application.Q26_RemoveDuplicates.executor": "Run",
-    "Application.Q2_Factorial.executor": "Run",
-    "Application.Q2_Sum.executor": "Run",
-    "Application.Q349_IntersectionOf2Array.executor": "Run",
-    "Application.Q409_LongestPalindrome.executor": "Run",
-    "Application.Q42_TrappingRainwater.executor": "Run",
-    "Application.Q448_NumbersDisappeared.executor": "Run",
-    "Application.Q4_Fabonacci.executor": "Run",
-    "Application.Q4_Fibonacci.executor": "Run",
-    "Application.Q53_MaxSubarray.executor": "Run",
-    "Application.Q560_SubArraySumEqualsTarget.executor": "Run",
-    "Application.Q5_Gcd.executor": "Run",
-    "Application.Q5_Lcm.executor": "Run",
-    "Application.Q724_.executor": "Run",
-    "Application.Q75_SortColor.executor": "Run",
-    "Application.Q75_SortColors.executor": "Run",
-    "Application.Q7_Factor.executor": "Run",
-    "Application.Q875_KokoEatingBananas.executor": "Run",
-    "Application.Q88_MergeSortedArray.executor": "Run",
-    "Application.Q9_Power.executor": "Run",
-    "Application.SearchRotatedSorted.executor": "Run",
-    "Application.Sqrt.executor": "Run",
-    "Application.SumFactFab.executor": "Run",
-    "Application.UseMyArrayList.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Astha.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionOf2Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntesectionOf2Array2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Intro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortPivot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinMaxProfit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextLarge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeakIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeekIndexInMountain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q1011_MinCapacityToShip.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q1011_ShpiWithinAlloc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q11_MaxWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q128_LongestConsecutive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q15_3Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q169_MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q1_HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q268_MissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q26_RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q2_Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q2_Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q349_IntersectionOf2Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q409_LongestPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q42_TrappingRainwater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q448_NumbersDisappeared.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q4_Fabonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q4_Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q53_MaxSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q560_SubArraySumEqualsTarget.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q5_Gcd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q5_Lcm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q724_.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q75_SortColor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q75_SortColors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q7_Factor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q875_KokoEatingBananas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q88_MergeSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q9_Power.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchRotatedSorted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sqrt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StockSpanGFG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumFactFab.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TowerOfHanoi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UseMyArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="powerSession" />
       <recent name="hashing" />
       <recent name="leetcode.cylicSort" />
       <recent name="sorting" />
       <recent name="leetcode" />
-      <recent name="practice_2Jan.recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q128_LongestConsecutive">
-    <configuration name="Q1011_MinCapacityToShip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary.Q1011_MinCapacityToShip" />
+  <component name="RunManager" selected="Application.CountWithPrefix">
+    <configuration name="CountWithPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="random.CountWithPrefix" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binary.*" />
+          <option name="PATTERN" value="random.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntersectionOf2Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceSession.hash.IntersectionOf2Array" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiceSession.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntesectionOf2Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceSession.hash.IntesectionOf2Array2" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiceSession.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,38 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q409_LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashing.Q409_LongestPalindrome" />
+    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.myTree.TreeNode" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q560_SubArraySumEqualsTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashing.Q560_SubArraySumEqualsTarget" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q875_KokoEatingBananas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashing.Q875_KokoEatingBananas" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashing.*" />
+          <option name="PATTERN" value="tree.myTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountWithPrefix" />
         <item itemvalue="Application.Q128_LongestConsecutive" />
-        <item itemvalue="Application.Q560_SubArraySumEqualsTarget" />
-        <item itemvalue="Application.Q875_KokoEatingBananas" />
-        <item itemvalue="Application.Q1011_MinCapacityToShip" />
-        <item itemvalue="Application.Q409_LongestPalindrome" />
+        <item itemvalue="Application.TreeNode" />
+        <item itemvalue="Application.IntesectionOf2Array2" />
+        <item itemvalue="Application.IntersectionOf2Array" />
       </list>
     </recent_temporary>
   </component>
@@ -204,22 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734843047761</updated>
-    </task>
-    <task id="LOCAL-00001" summary="recursion - hello world">
-      <option name="closed" value="true" />
-      <created>1735321357193</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1735321357193</updated>
-    </task>
-    <task id="LOCAL-00002" summary="dsa.iml file">
-      <option name="closed" value="true" />
-      <created>1735321968502</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1735321968502</updated>
     </task>
     <task id="LOCAL-00003" summary="recursion - hello world">
       <option name="closed" value="true" />
@@ -421,36 +405,228 @@
       <option name="project" value="LOCAL" />
       <updated>1737478426016</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="find majority elements">
+      <option name="closed" value="true" />
+      <created>1737569260189</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1737569260189</updated>
+    </task>
+    <task id="LOCAL-00029" summary=".">
+      <option name="closed" value="true" />
+      <created>1737569309500</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1737569309500</updated>
+    </task>
+    <task id="LOCAL-00030" summary="missing number">
+      <option name="closed" value="true" />
+      <created>1737654255783</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1737654255783</updated>
+    </task>
+    <task id="LOCAL-00031" summary="max sub arrays">
+      <option name="closed" value="true" />
+      <created>1737910474003</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1737910474003</updated>
+    </task>
+    <task id="LOCAL-00032" summary="longest palindrome">
+      <option name="closed" value="true" />
+      <created>1738000556572</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1738000556572</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Subarray sum equals target">
+      <option name="closed" value="true" />
+      <created>1738085086599</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1738085086599</updated>
+    </task>
+    <task id="LOCAL-00034" summary="longest consecutive">
+      <option name="closed" value="true" />
+      <created>1738168088666</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1738168088666</updated>
+    </task>
+    <task id="LOCAL-00035" summary="intersection of 2 array">
+      <option name="closed" value="true" />
+      <created>1738257718875</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1738257718875</updated>
+    </task>
+    <task id="LOCAL-00036" summary="min capacity to ship">
+      <option name="closed" value="true" />
+      <created>1738346064241</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1738346064241</updated>
+    </task>
+    <task id="LOCAL-00037" summary="duplicate zero">
+      <option name="closed" value="true" />
+      <created>1738434308720</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1738434308721</updated>
+    </task>
+    <task id="LOCAL-00038" summary="merge sort">
+      <option name="closed" value="true" />
+      <created>1738517582633</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1738517582633</updated>
+    </task>
+    <task id="LOCAL-00039" summary="find pivot">
+      <option name="closed" value="true" />
+      <created>1738604745329</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1738604745329</updated>
+    </task>
+    <task id="LOCAL-00040" summary="My Linkedlist">
+      <option name="closed" value="true" />
+      <created>1738692418716</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1738692418716</updated>
+    </task>
+    <task id="LOCAL-00041" summary="peek index">
+      <option name="closed" value="true" />
+      <created>1738860822338</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1738860822338</updated>
+    </task>
+    <task id="LOCAL-00042" summary="stock span gfg">
+      <option name="closed" value="true" />
+      <created>1738952722528</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1738952722528</updated>
+    </task>
+    <task id="LOCAL-00043" summary="atock span">
+      <option name="closed" value="true" />
+      <created>1739122756568</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122756568</updated>
+    </task>
+    <task id="LOCAL-00044" summary="linkedlist intro">
+      <option name="closed" value="true" />
+      <created>1739210567854</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1739210567854</updated>
+    </task>
+    <task id="LOCAL-00045" summary="stack next large">
+      <option name="closed" value="true" />
+      <created>1739288795706</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1739288795706</updated>
+    </task>
+    <task id="LOCAL-00046" summary="files">
+      <option name="closed" value="true" />
+      <created>1739382109249</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1739382109249</updated>
+    </task>
+    <task id="LOCAL-00047" summary="tower of hanoi">
+      <option name="closed" value="true" />
+      <created>1739465280578</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1739465280578</updated>
+    </task>
+    <task id="LOCAL-00048" summary="intersection of 2 array">
+      <option name="closed" value="true" />
+      <created>1739555141274</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1739555141274</updated>
+    </task>
+    <task id="LOCAL-00049" summary="longest consecutive">
+      <option name="closed" value="true" />
+      <created>1739634489056</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1739634489056</updated>
+    </task>
+    <task id="LOCAL-00050" summary="intersection of 2 array 2nd">
+      <option name="closed" value="true" />
+      <created>1739726296085</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1739726296086</updated>
+    </task>
+    <task id="LOCAL-00051" summary="tree">
+      <option name="closed" value="true" />
+      <created>1739812293817</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1739812293817</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dsa.iml file" />
-    <MESSAGE value="recursion - hello world" />
-    <MESSAGE value="recursion - sum of n" />
-    <MESSAGE value="recursion - fibonacci" />
-    <MESSAGE value="recursion - gcd" />
-    <MESSAGE value="recursion - lcm" />
-    <MESSAGE value="recursion - factor" />
-    <MESSAGE value="recursion - power" />
-    <MESSAGE value="optimized sqrt" />
-    <MESSAGE value="left rotation" />
-    <MESSAGE value="prime number" />
-    <MESSAGE value="FILES" />
-    <MESSAGE value="my arraylist" />
-    <MESSAGE value="merge sort" />
-    <MESSAGE value="quick sort" />
-    <MESSAGE value="myArrayList" />
-    <MESSAGE value="file" />
-    <MESSAGE value="search in rotated sorted" />
-    <MESSAGE value="Q11 max water" />
-    <MESSAGE value="3sum" />
-    <MESSAGE value="remove duplicates" />
-    <MESSAGE value="trapping rainwater" />
     <MESSAGE value="min max profit" />
     <MESSAGE value="sort color" />
     <MESSAGE value="numbers disappeared" />
-    <option name="LAST_COMMIT_MESSAGE" value="numbers disappeared" />
+    <MESSAGE value="find majority elements" />
+    <MESSAGE value="." />
+    <MESSAGE value="missing number" />
+    <MESSAGE value="max sub arrays" />
+    <MESSAGE value="longest palindrome" />
+    <MESSAGE value="Subarray sum equals target" />
+    <MESSAGE value="min capacity to ship" />
+    <MESSAGE value="duplicate zero" />
+    <MESSAGE value="merge sort" />
+    <MESSAGE value="find pivot" />
+    <MESSAGE value="My Linkedlist" />
+    <MESSAGE value="peek index" />
+    <MESSAGE value="stock span gfg" />
+    <MESSAGE value="atock span" />
+    <MESSAGE value="linkedlist intro" />
+    <MESSAGE value="stack next large" />
+    <MESSAGE value="files" />
+    <MESSAGE value="tower of hanoi" />
+    <MESSAGE value="intersection of 2 array" />
+    <MESSAGE value="longest consecutive" />
+    <MESSAGE value="intersection of 2 array 2nd" />
+    <MESSAGE value="tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
