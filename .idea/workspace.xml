@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b9aea11-84f6-4bf4-a2f4-a4b06208385c" name="Changes" comment="tree">
+    <list default="true" id="4b9aea11-84f6-4bf4-a2f4-a4b06208385c" name="Changes" comment="design linked list">
+      <change afterPath="$PROJECT_DIR$/src/codeNcompete/Railway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeNcompete/Tower.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/hashing/Q875_KokoEatingBananas.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/linkedList/MiddleofLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/powerSession/SearchRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/ReverseKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/revision1/linkedlist/basic/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/SortCharactersByFrequency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binary/SearchRotatedSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/SearchRotatedSorted.java" afterDir="false" />
     </list>
@@ -53,64 +56,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Astha.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntersectionOf2Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntesectionOf2Array2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Intro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeftRotation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSortPivot.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinMaxProfit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NextLarge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PeakIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PeekIndexInMountain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1011_MinCapacityToShip.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1011_ShpiWithinAlloc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q11_MaxWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q128_LongestConsecutive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q15_3Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q169_MajorityElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1_HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q268_MissingNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q26_RemoveDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q2_Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q2_Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q349_IntersectionOf2Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q409_LongestPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q42_TrappingRainwater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q448_NumbersDisappeared.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q4_Fabonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q4_Fibonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q53_MaxSubarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q560_SubArraySumEqualsTarget.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q5_Gcd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q5_Lcm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q724_.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q75_SortColor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q75_SortColors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q7_Factor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q875_KokoEatingBananas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q88_MergeSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q9_Power.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchRotatedSorted.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sqrt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StockSpanGFG.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumFactFab.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TowerOfHanoi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeNode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UseMyArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Array.executor": "Run",
+    "Application.Astha.executor": "Run",
+    "Application.CountWithPrefix.executor": "Run",
+    "Application.DesignLinkedList.executor": "Run",
+    "Application.Gcd.executor": "Run",
+    "Application.Hello.executor": "Run",
+    "Application.IntersectionOf2Array.executor": "Run",
+    "Application.IntesectionOf2Array2.executor": "Run",
+    "Application.Intro.executor": "Run",
+    "Application.LeftRotation.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.MergeSortPivot.executor": "Run",
+    "Application.MinMaxProfit.executor": "Run",
+    "Application.MyHeap.executor": "Run",
+    "Application.NextLarge.executor": "Run",
+    "Application.PeakIndex.executor": "Run",
+    "Application.PeekIndexInMountain.executor": "Run",
+    "Application.PrimeNumbers.executor": "Run",
+    "Application.Q1011_MinCapacityToShip.executor": "Run",
+    "Application.Q1011_ShpiWithinAlloc.executor": "Run",
+    "Application.Q11_MaxWater.executor": "Run",
+    "Application.Q128_LongestConsecutive.executor": "Run",
+    "Application.Q15_3Sum.executor": "Run",
+    "Application.Q169_MajorityElement.executor": "Run",
+    "Application.Q1_HelloWorld.executor": "Run",
+    "Application.Q268_MissingNumber.executor": "Run",
+    "Application.Q26_RemoveDuplicates.executor": "Run",
+    "Application.Q2_Factorial.executor": "Run",
+    "Application.Q2_Sum.executor": "Run",
+    "Application.Q349_IntersectionOf2Array.executor": "Run",
+    "Application.Q409_LongestPalindrome.executor": "Run",
+    "Application.Q42_TrappingRainwater.executor": "Run",
+    "Application.Q448_NumbersDisappeared.executor": "Run",
+    "Application.Q4_Fabonacci.executor": "Run",
+    "Application.Q4_Fibonacci.executor": "Run",
+    "Application.Q53_MaxSubarray.executor": "Run",
+    "Application.Q560_SubArraySumEqualsTarget.executor": "Run",
+    "Application.Q5_Gcd.executor": "Run",
+    "Application.Q5_Lcm.executor": "Run",
+    "Application.Q724_.executor": "Run",
+    "Application.Q75_SortColor.executor": "Run",
+    "Application.Q75_SortColors.executor": "Run",
+    "Application.Q7_Factor.executor": "Run",
+    "Application.Q875_KokoEatingBananas.executor": "Run",
+    "Application.Q88_MergeSortedArray.executor": "Run",
+    "Application.Q9_Power.executor": "Run",
+    "Application.SearchRotatedSorted.executor": "Run",
+    "Application.SortCharactersByFrequency.executor": "Run",
+    "Application.Sqrt.executor": "Run",
+    "Application.StockSpanGFG.executor": "Run",
+    "Application.SumFactFab.executor": "Run",
+    "Application.Tower.executor": "Run",
+    "Application.TowerOfHanoi.executor": "Run",
+    "Application.TreeNode.executor": "Run",
+    "Application.UseMyArrayList.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="powerSession" />
@@ -120,13 +129,13 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountWithPrefix">
-    <configuration name="CountWithPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="random.CountWithPrefix" />
+  <component name="RunManager" selected="Application.Tower">
+    <configuration name="DesignLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="revision1.linkedlist.DesignLinkedList" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="random.*" />
+          <option name="PATTERN" value="revision1.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOf2Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceSession.hash.IntersectionOf2Array" />
+    <configuration name="Gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_2Jan.recursion.Gcd" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceSession.hash.*" />
+          <option name="PATTERN" value="practice_2Jan.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntesectionOf2Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceSession.hash.IntesectionOf2Array2" />
+    <configuration name="MyHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.MyHeap" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceSession.hash.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q128_LongestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashing.Q128_LongestConsecutive" />
+    <configuration name="SortCharactersByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.SortCharactersByFrequency" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashing.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.myTree.TreeNode" />
+    <configuration name="Tower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeNcompete.Tower" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.myTree.*" />
+          <option name="PATTERN" value="codeNcompete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountWithPrefix" />
-        <item itemvalue="Application.Q128_LongestConsecutive" />
-        <item itemvalue="Application.TreeNode" />
-        <item itemvalue="Application.IntesectionOf2Array2" />
-        <item itemvalue="Application.IntersectionOf2Array" />
+        <item itemvalue="Application.Tower" />
+        <item itemvalue="Application.DesignLinkedList" />
+        <item itemvalue="Application.SortCharactersByFrequency" />
+        <item itemvalue="Application.MyHeap" />
+        <item itemvalue="Application.Gcd" />
       </list>
     </recent_temporary>
   </component>
@@ -204,38 +213,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734843047761</updated>
-    </task>
-    <task id="LOCAL-00003" summary="recursion - hello world">
-      <option name="closed" value="true" />
-      <created>1735322024226</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1735322024226</updated>
-    </task>
-    <task id="LOCAL-00004" summary="recursion - sum of n">
-      <option name="closed" value="true" />
-      <created>1735408642999</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1735408642999</updated>
-    </task>
-    <task id="LOCAL-00005" summary="recursion - fibonacci">
-      <option name="closed" value="true" />
-      <created>1735492854648</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1735492854648</updated>
-    </task>
-    <task id="LOCAL-00006" summary="recursion - fibonacci">
-      <option name="closed" value="true" />
-      <created>1735656732526</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1735656732526</updated>
     </task>
     <task id="LOCAL-00007" summary="recursion - gcd">
       <option name="closed" value="true" />
@@ -597,15 +574,42 @@
       <option name="project" value="LOCAL" />
       <updated>1739812293817</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary=".">
+      <option name="closed" value="true" />
+      <created>1739893255021</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1739893255021</updated>
+    </task>
+    <task id="LOCAL-00053" summary="reverse of k group">
+      <option name="closed" value="true" />
+      <created>1740152612408</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1740152612408</updated>
+    </task>
+    <task id="LOCAL-00054" summary="my heap">
+      <option name="closed" value="true" />
+      <created>1740676017608</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1740676017609</updated>
+    </task>
+    <task id="LOCAL-00055" summary="design linked list">
+      <option name="closed" value="true" />
+      <created>1740851058715</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1740851058715</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="min max profit" />
-    <MESSAGE value="sort color" />
-    <MESSAGE value="numbers disappeared" />
-    <MESSAGE value="find majority elements" />
-    <MESSAGE value="." />
     <MESSAGE value="missing number" />
     <MESSAGE value="max sub arrays" />
     <MESSAGE value="longest palindrome" />
@@ -626,7 +630,12 @@
     <MESSAGE value="longest consecutive" />
     <MESSAGE value="intersection of 2 array 2nd" />
     <MESSAGE value="tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="tree" />
+    <MESSAGE value="count with prefix" />
+    <MESSAGE value="." />
+    <MESSAGE value="reverse of k group" />
+    <MESSAGE value="my heap" />
+    <MESSAGE value="design linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="design linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
